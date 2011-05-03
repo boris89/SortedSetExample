@@ -3,6 +3,7 @@ package at.jku.ce;
 public class DomainObject {
 
 	public String id;
+	private String name;
 	
 	/**
 	 * Default constructor
@@ -11,7 +12,7 @@ public class DomainObject {
 		super();
 	}
 	
-	public DomainObject() {
+	public DomainObject(String id) {
 		super();
 		this.id = id;
 	}
